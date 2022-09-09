@@ -15,6 +15,7 @@ When we just write
 
 It only creates a variable in the stack and has value null by default:
 
+
 <img height="350" src="src/main/resources/media/arrays_memory/arrays_memory1.jpg" width="474"/>
 
 
@@ -38,7 +39,7 @@ Now when we do operations like:
 `arr[3] = 40;`
 
 
-<img height="300" src="/src/main/resources/media/arrays_memory/arrays_memory3.jpg" width="474"/>
+<img height="350" src="/src/main/resources/media/arrays_memory/arrays_memory3.jpg" width="474"/>
 
 Java sees this as, arr -> 4000. so arr[0] is 0 integer away from 4000. That is 4000.
 Java sees arr as 4000 because that is the value that is stored in the stack, now when
