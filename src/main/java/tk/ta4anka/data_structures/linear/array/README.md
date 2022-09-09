@@ -16,7 +16,7 @@ When we just write
 It only creates a variable in the stack and has value null by default:
 
 
-<img height="350" src="src/main/resources/media/arrays_memory/arrays_memory1.jpg" width="474"/>
+
 
 
 But after that when we allocate memory like this:
