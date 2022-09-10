@@ -12,7 +12,7 @@ than or equal to the number of elements being sorted. Sorting that takes up equa
 
 referred to as **not-in-place sorting**. Not-in-place sorting is demonstrated by **the merge sort**.
 
-
+ ***
 ### Stability in Sorting Algorithms
 The stability of a sorting algorithm is concerned with how the algorithm treats equal (or repeated) elements. 
 
