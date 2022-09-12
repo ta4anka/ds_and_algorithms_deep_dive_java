@@ -7,4 +7,4 @@
 - Doesn't require as much swapping as bubble sort
 ***
 
-<img height="750" src="/src/main/java/tk/ta4anka/algorithms/sorting/array/selection_sort/selection-sort.png" width="550"/>
+<img height="750" src="/src/main/resources/media/arrays_sorting/selection-sort.png" width="550"/>
