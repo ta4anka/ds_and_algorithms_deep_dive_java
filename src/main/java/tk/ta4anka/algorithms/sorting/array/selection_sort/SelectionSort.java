@@ -6,9 +6,9 @@ public class SelectionSort {
         for (int lastUnsortedIndex = array.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
             int largest = 0;
 
-            for (int i = 1; i <= lastUnsortedIndex; i++) {
-                if (array[i] > array[largest]) {
-                    largest = i;
+            for (int j = 1; j <= lastUnsortedIndex; j++) {
+                if (array[j] > array[largest]) {
+                    largest = j;
                 }
             }
             swap(array, largest, lastUnsortedIndex);
