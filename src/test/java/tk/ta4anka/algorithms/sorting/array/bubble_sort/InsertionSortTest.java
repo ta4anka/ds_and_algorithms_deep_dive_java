@@ -1,6 +1,7 @@
 package tk.ta4anka.algorithms.sorting.array.bubble_sort;
 
 import org.junit.jupiter.api.Test;
+import tk.ta4anka.algorithms.sorting.array.insertion_sort.InsertionSort;
 
 import java.util.Arrays;
 

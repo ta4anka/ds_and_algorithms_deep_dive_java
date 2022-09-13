@@ -1,4 +1,4 @@
-package tk.ta4anka.algorithms.sorting.array.bubble_sort;
+package tk.ta4anka.algorithms.sorting.array.insertion_sort;
 
 public class InsertionSort {
 
