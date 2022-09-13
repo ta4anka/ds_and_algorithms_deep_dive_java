@@ -27,4 +27,4 @@ Suppose we have an unsorted array of integers. Our task is to sort it in ascendi
 - O(n^2) time complexity - **quadratic**
 - It will take 100 steps to sort 10 items
 ***
- [The implementation](src/main/java/tk/ta4anka/algorithms/sorting/array/insertion_sort/InsertionSort.java)
+ [The implementation](InsertionSort.java)
