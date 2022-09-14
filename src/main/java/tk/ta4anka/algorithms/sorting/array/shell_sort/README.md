@@ -36,13 +36,13 @@ Knuth Sequence
 - For exampled array, the first gap will be initialized to 3 (7 / 2 = 3)
 - Result after first iteration:
 
-[<span style="color:green">20</span>, 35, -15, <span style="color:green">7</span>, 55, 1, -22]
+[`20`, 35, -15, `7`, 55, 1, -22]
 =>
-[7, <span style="color:yellow">35</span>, -15, 20, <span style="color:yellow">55</span>, 1, -22]
+[7, _35_, -15, 20, _55_, 1, -22]
 =>
-[7, 35, <span style="color:yellow">-15</span>, 20, 55, <span style="color:yellow">1</span>, -22]
+[7, 35, _-15_, 20, 55, _1_, -22]
 =>
-[<span style="color:green">7</span>, 35, -15, <span style="color:green">20</span>, 55, 1, <span style="color:green">-22</span>]
+[`7`, 35, -15, `20`, 55, 1, `-22`]
 => 
 [-22, 35, -15, 7, 55, 1, 20]
 
