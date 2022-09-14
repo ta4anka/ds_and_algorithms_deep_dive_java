@@ -1,9 +1,8 @@
 package tk.ta4anka.algorithms.sorting.array.insertion_sort;
 
 import org.junit.jupiter.api.Test;
-import tk.ta4anka.algorithms.sorting.array.shell_sort.ShellSort;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class InsertionSortTest {
 
