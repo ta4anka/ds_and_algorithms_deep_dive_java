@@ -14,4 +14,13 @@ class MergeSortTest {
         int[] expected = {-22, -15, 1, 7, 20, 35, 55};
         assertArrayEquals(expected, input);
     }
+
+    @Test
+    void iterativeMergeSort() {
+        int[] input = {20, 35, -15, 7, 55, 1, -22};
+        MergeSort.iterativeMergeSort(input, 0, input.length);
+
+        int[] expected = {-22, -15, 1, 7, 20, 35, 55};
+        assertArrayEquals(expected, input);
+    }
 }

@@ -33,4 +33,12 @@ public class MergeSort {
         System.arraycopy(input, i, input, start + tempIndex, mid - i);
         System.arraycopy(temp, 0, input, start, tempIndex);
     }
+
+    public static void iterativeMergeSort(int[] input, int start, int end) {
+        for (int i = 1; i <= input.length / 2 + 1; i *= 2) {
+            for (int j = i; j < input.length; j += 2 * i) {
+                merge(input, start, j, Math.min(j + i, end));
+            }
+        }
+    }
 }
