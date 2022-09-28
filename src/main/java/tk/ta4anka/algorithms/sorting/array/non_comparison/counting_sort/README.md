@@ -1,7 +1,5 @@
 ### Counting sort
 
-https://hyperskill.org/learn/step/4983
-
 Counting sort is a non-comparison-based algorithm for sorting small **integer** numbers.
 The algorithm counts the number of occurrences for each element in the input array, storing the counts in a separate array.
 Then the algorithm returns array elements from the minimum to the maximum, in accordance with their counts.
