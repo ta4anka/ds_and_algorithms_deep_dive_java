@@ -8,6 +8,18 @@
     <artifactId>ds_and_algorithms_deep_dive_java</artifactId>
     <version>1.0</version>
 
+    <packaging>jar</packaging>
+
+    <name>Algorithms and Data Structures</name>
+    <description>This is a project to study algorithms and data structures</description>
+    <url>https://github.com/ta4anka/ds_and_algorithms_deep_dive_java</url>
+
+    <developers>
+        <developer>
+            <name>Vladimir</name>
+        </developer>
+    </developers>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -24,5 +36,22 @@
         </dependency>
 
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.12.0</version>
+            </plugin>
+
+            <!-- run unit test with Maven-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M7</version>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
