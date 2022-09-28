@@ -15,7 +15,7 @@ Then the algorithm returns array elements from the minimum to the maximum, in ac
 ***
 The  unstable algorithm:
 
-<img height="300" src="/Users/ta4anka/IdeaProjects/ds_and_algorithms_deep_dive_java/src/main/resources/media/arrays_sorting/counting_sort.png" width="400"/>
+<img height="300" src="/src/main/resources/media/arrays_sorting/counting_sort.png" width="400"/>
 
 ***
 - [video explanation](https://www.youtube.com/watch?v=OKd534EWcdk)
